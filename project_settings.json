@@ -3,5 +3,10 @@
         "global_pov": "Third Person Limited",
         "global_pov_character": "Bob",
         "global_tense": "Past Tense"
+    },
+    "Test": {
+        "global_pov": "Third Person Limited",
+        "global_pov_character": "Readme",
+        "global_tense": "Present Tense"
     }
 }

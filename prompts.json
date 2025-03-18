@@ -1,0 +1,46 @@
+{
+    "Workshop": [
+        {
+            "name": "Default Workshop Prompt",
+            "text": "I need your help with my project. Please provide creative brainstorming and ideas.",
+            "default": true,
+            "provider": "OpenAI",
+            "model": "gpt-3.5-turbo",
+            "max_tokens": 2000,
+            "temperature": 0.7
+        }
+    ],
+    "Summary": [
+        {
+            "name": "Default Summary Prompt",
+            "text": "Provide a concise summary of the project that retains all relevant information and is optimized for token count.",
+            "default": true,
+            "provider": "OpenAI",
+            "model": "gpt-3.5-turbo",
+            "max_tokens": 2000,
+            "temperature": 0.7
+        }
+    ],
+    "Prose": [
+        {
+            "name": "Default Prose Prompt",
+            "text": "You are collaborating with the author to write a scene. Write the scene in {pov} point of view, from the perspective of {pov_character}, and in {tense}.",
+            "default": true,
+            "provider": "OpenAI",
+            "model": "gpt-3.5-turbo",
+            "max_tokens": 2000,
+            "temperature": 0.7
+        }
+    ],
+    "Rewrite": [
+        {
+            "name": "Default Rewrite Prompt",
+            "text": "Rewrite the passage for clarity.",
+            "default": true,
+            "provider": "OpenAI",
+            "model": "gpt-3.5-turbo",
+            "max_tokens": 2000,
+            "temperature": 0.7
+        }
+    ]
+}
